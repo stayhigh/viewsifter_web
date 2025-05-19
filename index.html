@@ -1,86 +1,61 @@
 <!DOCTYPE html>
 <html lang="zh-TW">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Viewsifter</title>
-    <style>
-        :root {
-            --primary-color: #2B6CB0;
-            --accent-color: #FF9F43;
-            --background-color: #F5F7FA;
-            --text-color: #1A1A1A;
-        }
-
-        body {
-            font-family: '苹方 SC', sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: var(--background-color);
-            color: var(--text-color);
-        }
-
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 2rem;
-        }
-
-        .module-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 2rem;
-        }
-
-        .module-card {
-            background-color: var(--background-color);
-            padding: 1.5rem;
-            border-radius: 8px;
-            text-align: center;
-            transition: transform 0.3s ease;
-        }
-
-        .module-card:hover {
-            transform: translateY(-5px);
-        }
-
-        .icon {
-            font-size: 2rem;
-            color: var(--accent-color);
-            margin-bottom: 1rem;
-        }
-
-        @media (max-width: 600px) {
-            .icon {
-                font-size: 1.5rem;
-            }
-        }
-    </style>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Viewsifter - 即時權威資訊整合・觀點分析・AI自動化</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2/particles.min.js"></script>
 </head>
 <body>
-    <div class="container">
-        <h1 style="color: var(--primary-color);">Viewsifter</h1>
-        <p>即時權威資訊整合｜觀點立場分析｜AI自動化</p>
-        
-        <div class="module-grid">
-            <div class="module-card">
-                <div class="icon">💡</div>
-                <h2>實時資訊整合</h2>
-                <p>聚合全球權威信源資料，即時呈現最新動態。</p>
-            </div>
-            
-            <div class="module-card">
-                <div class="icon">📊</div>
-                <h2>觀點分析</h2>
-                <p>AI驅動的深度解讀，提供多維度觀點分析。</p>
-            </div>
-            
-            <div class="module-card">
-                <div class="icon">🤖</div>
-                <h2>AI自動化</h2>
-                <p>智能流程優化方案，提升工作效率與準確性。</p>
-            </div>
+    <!-- 頂部導航欄 -->
+    <header class="navbar">
+        <div class="container">
+            <h1>Viewsifter</h1>
+            <nav>
+                <ul>
+                    <li><a href="#product">產品展示</a></li>
+                    <li><a href="#tech">技術解析</a></li>
+                    <li><a href="#cases">應用場景</a></li>
+                    <li><a href="#contact">聯繫我們</a></li>
+                </ul>
+            </nav>
         </div>
-    </div>
+    </header>
+
+    <!-- 全屏產品展示區 -->
+    <section id="product" class="full-screen">
+        <div class="container">
+            <h2>即時權威資訊整合</h2>
+            <p>透過AI自動化技術，快速聚合全球權威來源的即時資訊。</p>
+        </div>
+        <div id="particles-js"></div>
+    </section>
+
+    <!-- 技術原理解析區 -->
+    <section id="tech" class="tech-section">
+        <div class="container">
+            <h2>觀點立場分析</h2>
+            <p>結合自然語言處理與機器學習，提供深度觀點解析。</p>
+            <div class="animation-trigger">點擊展開技術細節</div>
+        </div>
+    </section>
+
+    <!-- 應用場景展示區 -->
+    <section id="cases" class="case-section">
+        <div class="container">
+            <h2>AI自動化應用</h2>
+            <p>從新聞報導到市場趨勢，全面實現智能處理。</p>
+        </div>
+    </section>
+
+    <!-- 底部聯繫方式 -->
+    <footer id="contact" class="footer">
+        <div class="container">
+            <p>&copy; 2025 Viewsifter. 保留所有權利。</p>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
 </body>
 </html>
