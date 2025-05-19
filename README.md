@@ -23,26 +23,12 @@ Viewsifter 是一家專注於提供即時權威資訊整合、觀點立場分析
 ## 技術需求
 - **前端**: React.js + TypeScript 用於建構互動式 UI。
 - **後端**: Node.js 與 Express 提供 RESTful API。
-<<<<<<< HEAD
-<<<<<<< HEAD
 - **資料庫**: MongoDB 存儲結構化與非結構化資料。
-=======
-- **資料庫**: 存儲結構化與非結構化資料。
->>>>>>> 855ca2b (update readme)
-=======
-- **資料庫**: MongoDB 存儲結構化與非結構化資料。
->>>>>>> 40f0b49 (update readme)
 - **AI 模組**: TensorFlow/PyTorch 實現機器學習模型。
 
 ## 預期成果
 - 為企業提供一站式資訊管理解決方案。
-<<<<<<< HEAD
 - 透過 AI 技術提升用戶工作效率與決策品質。
-<<<<<<< HEAD
-=======
-- 透過 AI 技術提升用戶工作效率與決策品質。
->>>>>>> 855ca2b (update readme)
-=======
 
 ## 設計方案更新
 ### 1. 視覺層級重构
@@ -69,4 +55,3 @@ graph TD
 - CSS Grid布局
 - Web Animations API實現複雜動畫
 - Intersection Observer實作懶加載
->>>>>>> 40f0b49 (update readme)
