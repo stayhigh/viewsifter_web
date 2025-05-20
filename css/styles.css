@@ -21,6 +21,7 @@ body {
 
 .navbar h1 {
     color: #007bff;
+    font-size: 5rem;
 }
 
 nav ul {
@@ -36,6 +37,7 @@ nav ul li a {
     text-decoration: none;
     color: #333;
     font-weight: bold;
+    font-size: 2rem;
 }
 
 /* 全屏區塊 */
@@ -45,7 +47,7 @@ nav ul li a {
     align-items: center;
     justify-content: center;
     text-align: center;
-    background-image: url('pics/website.png');
+    background-image: url('../pics/website.png');
     background-size: cover;
     background-position: center;
     position: relative;
